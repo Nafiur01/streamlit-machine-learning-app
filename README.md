@@ -1,7 +1,4 @@
 # 🙌 Machine Learning App with Streamlit
-```
-⬆️ (Replace above with your app's name)
-```
 
 Description of the app ...
 
