@@ -21,4 +21,4 @@ with st.expander('Data'):
   Y_raw
 
 with st.expander('Data Visualization'):
-  pass
+  st.scatter_chart(data=df,x='bill_length_mm',y='body_mass_g',color='species')
