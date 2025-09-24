@@ -81,6 +81,9 @@ clf = RandomForestClassifier()
 clf.fit(X,y)
 prediction = clf.predict(input_row)
 prediction_proba = clf.predict_proba(input_row)
-type(prediction_proba)
+prediction_proba.rename(columns={0:'Adelie',
+                                1:'Chinstrap',
+                                2:'Gentoo'})
+
 
 
