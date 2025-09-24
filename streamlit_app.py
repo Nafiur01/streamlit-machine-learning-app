@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from sklearn.ensemble import RandomForestClassifier
 
 st.title('Penguin Species Prediction with Machine Learning')
 
@@ -72,6 +73,9 @@ with st.expander('Data Preparation'):
   input_row
   st.write('**Y**')
   y
-  
+
+
+# Machine Learning Training
+clf = RandomForestClassifier
 
 
