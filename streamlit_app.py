@@ -87,5 +87,9 @@ df_prediction_proba = pd.DataFrame(prediction_proba)
 #                                 2:'Gentoo'})
 df_prediction_proba.columns = ['Adelie','Chinstrap','Gentoo']
 
-df_prediction_proba 
+st.subheader('Predicted Species')
+
+penguin_species = ['Adelie','Chinstrap','Gentoo']
+st.success(str(penguin_species[prediction][0])) 
+
 
