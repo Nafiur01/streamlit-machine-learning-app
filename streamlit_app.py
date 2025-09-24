@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
 st.title('Penguin Species Prediction with Machine Learning')
-
+st.header('Nafiur Rahman')
 st.info('We are going to predict penguin species based on the dataset using machine learning')
 
 with st.expander('Data'):
