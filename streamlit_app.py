@@ -66,8 +66,12 @@ with st.expander('Input Features'):
   input_df
   st.write('**Combined Input Features**')
   input_penguins
-  st.write('**Enconded Input Features**')
+
+with st.expander('Data Preparation'):
+  st.write('**Encoded X**')
   input_row
+  st.write('**Y**')
+  y
   
 
 
