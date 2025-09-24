@@ -97,13 +97,13 @@ st.dataframe(df_prediction_proba,
               width='medium',
               format='%f',
             ),
-              'Adelie':st.column_config.ProgressColumn(
-              'Adelie',
+              'Chinstrap':st.column_config.ProgressColumn(
+              'Chinstrap',
               width='medium',
               format='%f',
             ),
-              'Adelie':st.column_config.ProgressColumn(
-              'Adelie',
+              'Gentoo':st.column_config.ProgressColumn(
+              'Gentoo',
               width='medium',
               format='%f',
             )
