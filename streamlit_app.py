@@ -48,6 +48,7 @@ with st.sidebar:
 #encode cat column
 encode = ['island','sex']
 df_penguins = pd.get_dummies(input_penguins,prefix=encode)
+X = df_penguins[1:]
 input_row = df_penguins[:1]
 
 # encode Y
@@ -76,6 +77,10 @@ with st.expander('Data Preparation'):
 
 
 # Machine Learning Training
-clf = RandomForestClassifier
+clf = RandomForestClassifier()
+clf.fit(X,y)
+prediction = clf.predict(input_row)
+prediction_proba = clf.predict_proba(input_row)
+prediction_proba
 
 
