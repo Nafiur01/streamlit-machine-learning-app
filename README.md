@@ -1,4 +1,4 @@
-# 🙌 Machine Learning App with Streamlit
+# 🐧 Penguin Species Prediction with Machine Learning
 
 ## Demo App
 
